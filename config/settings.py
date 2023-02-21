@@ -1,3 +1,6 @@
+from decouple import config
+
+
 """
 Django settings for config project.
 
