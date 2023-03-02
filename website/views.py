@@ -6,7 +6,7 @@ def index(request):
         return render(request, 'website/index.html')
     
     except FileNotFoundError:
-        raise Http404
+        raise Http404()
 
 def resume_pdf(request):
     try:
